@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head> 
+    <title>water level </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+        <div class="kotak_login"> 
+        	<p class="tulisan_login"> Silahkan Login</p>
+
+        	<form>
+        		<label>username</label>
+        		<td><input type="text" name="name" class="form_login" placeholder="username"></td><br/>
+
+        		<label>pasword</label>
+        		<input type="text" name="password" class="form_login" placeholder="password"></td><br/>
+
+
+
+
+        		<input type="submit" class="tombol_login" value="login"></td><br/>
+
+
+        	</form>
+
+        </div>
+
+        
+</body>
+</html>
+
+<head> 
+	<link rel="stylesheet" href="styles.css"></head>
+	<style>
+		html{
+			background:url("PERUMDATIRTA.JPEG") no-repeat center fixed;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+			<?php
+   
+
+
+?>
+
+    }
+
+?>
+halo selamat datang
+<br/><br/>
+<a href="login.php">BACK</a>
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+}
+.tulisan_login{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.kotak_login{
+    width: 350px;
+    background: images.JPG;
+    margin: 80px auto;
+    padding: 30px 20px;
+    }
+labe
+{
+    font-size: 11pt;
+}
+.tombol_login{
+    background: green;
+    color: White;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+.form_login{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+.link{
+    color: #232323;
+    text-decoration: none;
+    font-size: 10pt;
+
+
+
+}
+
+		}
+
+    // script.js
+function validateLogin{} {
+    var username = document.getElementById{"username"}.value;
+    var password = document.getElementById{"password"}.value;
+
+    // Username dan password yang valid
+    var validUsername = "PerumdaTirtaMayang50";
+    var validPassword = "TM123456";
+
+    if {username === validUsername &&{password === validPassword} {
+        alert{"Login successful!"};
+        // Redirect ke halaman lain setelah login berhasil
+        window.location.href = "home.html"; // Ganti dengan halaman tujuan setelah login
+    } else {
+        document.getElementById{"errorMessage"}.textContent = {"Invalid username or password"};
+    }
+}
